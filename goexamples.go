@@ -5,7 +5,7 @@ import (
 	"fmt"
 )
 
-func greet(name string) (greeting string, err error) {
+func Greet(name string) (greeting string, err error) {
 	if name == "" {
 		return "", errors.New("name is empty")
 	}
